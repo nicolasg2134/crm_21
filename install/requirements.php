@@ -38,7 +38,7 @@ if (!extension_loaded('openssl')) {
 }
 
 if (!extension_loaded('mbstring')) {
-    $error        = true;
+    $error        = false;
     $requirement6 = "<span class='label label-danger'>Not enabled</span>";
 } else {
     $requirement6 = "<span class='label label-success'>Enabled</span>";
@@ -52,14 +52,14 @@ if (!extension_loaded('iconv') && !function_exists('iconv')) {
 }
 
 if (!extension_loaded('imap')) {
-    $error        = true;
+    $error        = false;
     $requirement8 = "<span class='label label-danger'>Not enabled</span>";
 } else {
     $requirement8 = "<span class='label label-success'>Enabled</span>";
 }
 
 if (!extension_loaded('gd')) {
-    $error        = true;
+    $error        = false;
     $requirement9 = "<span class='label label-danger'>Not enabled</span>";
 } else {
     $requirement9 = "<span class='label label-success'>Enabled</span>";
