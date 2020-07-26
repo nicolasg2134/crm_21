@@ -38,19 +38,19 @@ define('APP_ENC_KEY', '[encryption_key]');
  * Database Credentials
  * The hostname of your database server
  */
-define('APP_DB_HOSTNAME', 'sql107.epizy.com');
+define('APP_DB_HOSTNAME', 'eporqep6b4b8ql12.chr7pe7iynqr.eu-west-1.rds.amazonaws.com');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'epiz_26332728');
+define('APP_DB_USERNAME', 'b821vy6wawab002k');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', 'qA3Vz4PgGvqeA');
+define('APP_DB_PASSWORD', 'pzk0b14n7gsddmmk');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'epiz_26332728_XXX');
+define('APP_DB_NAME', 'zb3gc7fa443gllsc');
 
 /**
  * @since  2.3.0
